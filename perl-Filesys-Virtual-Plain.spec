@@ -5,16 +5,17 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Filesys
 %define		pnam	Virtual-Plain
-Summary:	perl(Filesys::Virtual::Plain) - A Plain virtual filesystem
+Summary:	Filesys::Virtual::Plain - A Plain virtual filesystem
+Summary(pl):	Filesys::Virtual::Plain - prosty wirtualny system plików
 Name:		perl-Filesys-Virtual-Plain
 Version:	0.09
 Release:	0.1
-# note if it is "same as perl"
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	86df4f15bf3e07ed412232105e86cd86
-#URL:		-
+URL:		http://search.cpan.org/dist/Filesys-Virtual-Plain/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -24,8 +25,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module uses Filesys::Virtual to implement plain filesystem. 
-See code for more info.
+This module uses Filesys::Virtual to implement plain filesystem. See
+code for more info.
+
+%description -l pl
+Ten modu³ wykorzystuje Filesys::Virtual do zaimplementowania prostego
+systemu plików. Wiêcej informacji w kodzie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

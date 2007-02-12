@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	Virtual-Plain
 Summary:	Filesys::Virtual::Plain - A Plain virtual filesystem
-Summary(pl):	Filesys::Virtual::Plain - prosty wirtualny system plików
+Summary(pl.UTF-8):   Filesys::Virtual::Plain - prosty wirtualny system plikÃ³w
 Name:		perl-Filesys-Virtual-Plain
 Version:	0.09
 Release:	0.1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module uses Filesys::Virtual to implement plain filesystem. See
 code for more info.
 
-%description -l pl
-Ten modu³ wykorzystuje Filesys::Virtual do zaimplementowania prostego
-systemu plików. Wiêcej informacji w kodzie.
+%description -l pl.UTF-8
+Ten moduÅ‚ wykorzystuje Filesys::Virtual do zaimplementowania prostego
+systemu plikÃ³w. WiÄ™cej informacji w kodzie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

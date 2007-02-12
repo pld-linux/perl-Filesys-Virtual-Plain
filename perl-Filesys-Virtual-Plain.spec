@@ -6,7 +6,7 @@
 %define		pdir	Filesys
 %define		pnam	Virtual-Plain
 Summary:	Filesys::Virtual::Plain - A Plain virtual filesystem
-Summary(pl.UTF-8):   Filesys::Virtual::Plain - prosty wirtualny system plików
+Summary(pl.UTF-8):	Filesys::Virtual::Plain - prosty wirtualny system plików
 Name:		perl-Filesys-Virtual-Plain
 Version:	0.09
 Release:	0.1

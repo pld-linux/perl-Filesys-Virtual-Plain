@@ -8,13 +8,13 @@
 Summary:	Filesys::Virtual::Plain - A Plain virtual filesystem
 Summary(pl.UTF-8):	Filesys::Virtual::Plain - prosty wirtualny system plików
 Name:		perl-Filesys-Virtual-Plain
-Version:	0.09
+Version:	0.10
 Release:	0.1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	86df4f15bf3e07ed412232105e86cd86
+# Source0-md5:	620f9a6e318ecf143cbcd9df0ea6eb29
 URL:		http://search.cpan.org/dist/Filesys-Virtual-Plain/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
